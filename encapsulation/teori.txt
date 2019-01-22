@@ -1,0 +1,21 @@
+Del 1 – Innkapsling og validering: teori
+Ta utgangspunkt i koden fra Account-klassen og besvar følgende spørsmål:
+
+Forklar hvorfor metodene over kan sies å være en komplett innkapsling av tilstanden?
+
+Feltene er private, og blir derfor kun sjekket via metoder i classen
+
+Er denne klassen data-orientert eller tjeneste-orientert? Begrunn svaret!
+Dataorientert, fordi den har getters og setters
+
+
+
+Del 2 - Spørsmål om innkapsling
+Foreslå en alternativ innkapsling av navnet. Hint: del opp.
+To variabler for hele navnet, altså en for fornavn og en for etternavn. Deretter kan man sjekke at de inneholder mer enn to bokstaver
+individuelt
+
+
+Foreslå to alternative strategier for å kapsle inn tilstand som er koblet slik navn og e-post er. Hint: 1) samtidig og 2) dekoble.
+Man kan bruke navn til å generere epost
+
